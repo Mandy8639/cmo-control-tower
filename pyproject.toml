@@ -32,7 +32,7 @@ dev = [
 ct = "control_tower.cli:main"
 
 [tool.ruff]
-line-length = 175
+line-length = 210
 target-version = "py312"
 
 [tool.ruff.lint]
