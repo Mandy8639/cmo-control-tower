@@ -101,8 +101,8 @@ uv run pytest
   `data/scenarios/` (enforced by `tests/test_boundaries.py`). Stock-outs caused by a planted
   supply problem are found by counterfactual re-runs and counted as true downstream signals,
   not false alarms.
-- A 10-item human spot check of the frozen set is in [`golden_review/spotcheck.md`](golden_review/spotcheck.md)
-  (pending review).
+- A 10-item spot check of the frozen set, done by reading the raw files rather than through the engine, is in
+  [`golden_review/spotcheck.md`](golden_review/spotcheck.md): 9 clearly visible, 1 weak (the CAPA case behind test miss #2).
 
 ## Stack
 
