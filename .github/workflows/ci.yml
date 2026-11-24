@@ -15,3 +15,15 @@ jobs:
         run: |
           uv run ct eval --split dev --out eval_dev.json
           uv run python -c "import json,sys; r=json.load(open('eval_dev.json'))[0]; sys.exit(0 if r['false_alarms']==0 and r['recall']>=0.95 else 1)"
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Full-history secret scan (gitleaks 8.24.3, checksum-pinned)
+        run: |
+          curl -sSL -o gitleaks.tgz https://github.com/gitleaks/gitleaks/releases/download/v8.24.3/gitleaks_8.24.3_linux_x64.tar.gz
+          echo "9991e0b2903da4c8f6122b5c3186448b927a5da4deef1fe45271c3793f4ee29c  gitleaks.tgz" | sha256sum -c -
+          tar -xzf gitleaks.tgz gitleaks
+          ./gitleaks git --redact --verbose --exit-code 1 .
