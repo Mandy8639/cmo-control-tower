@@ -1,0 +1,40 @@
+{
+  "seed": 2,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "deviation_backlog",
+      "entity": "CMO-DELTA",
+      "start": "2026-03-02",
+      "end": "2026-04-05",
+      "magnitude": 0.154
+    },
+    {
+      "issue_id": "I2",
+      "type": "api_supply_delay",
+      "entity": "CMO-CHARLIE",
+      "start": "2026-02-02",
+      "end": "2026-03-22",
+      "magnitude": 0.922
+    },
+    {
+      "issue_id": "I3",
+      "type": "overdue_actions",
+      "entity": "CMO-DELTA",
+      "start": "2026-02-09",
+      "end": "2026-04-05",
+      "magnitude": 0.978
+    },
+    {
+      "issue_id": "I4",
+      "type": "capa_overdue",
+      "entity": "CMO-CHARLIE",
+      "start": "2026-02-02",
+      "end": "2026-03-29",
+      "magnitude": 0.845
+    }
+  ],
+  "bad_row_uids": [],
+  "stock_breaches": {},
+  "breach_causes": {}
+}

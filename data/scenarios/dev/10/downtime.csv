@@ -1,0 +1,4 @@
+partner,line,start,end,reason
+CMO-CHARLIE,L1,2026-05-31,2026-06-01,planned maintenance
+CPO-ECHO,L1,2026-04-19,2026-04-20,planned maintenance
+CMO-ALPHA,L2,2026-02-02,2026-02-22,unplanned equipment failure

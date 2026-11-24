@@ -1,0 +1,4 @@
+deviation_id,partner,batch_id,opened,closed,category,severity
+DEV-002-0028,CMO-ALPHA,BEX100028,2026-01-13,2026-01-20,environmental,minor
+DEV-002-0051,CMO-DELTA,BEX400051,2026-03-31,2026-04-22,equipment,major
+DEV-002-0060,CMO-ALPHA,BEX100060,2026-02-20,2026-02-27,environmental,minor

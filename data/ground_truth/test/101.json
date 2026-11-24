@@ -1,0 +1,39 @@
+{
+  "seed": 101,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "deviation_backlog",
+      "entity": "CMO-BRAVO",
+      "start": "2026-02-23",
+      "end": "2026-03-29",
+      "magnitude": 0.219
+    },
+    {
+      "issue_id": "I2",
+      "type": "price_variance",
+      "entity": "CMO-ALPHA",
+      "start": "2026-04-13",
+      "end": "2026-05-17",
+      "magnitude": 0.471
+    },
+    {
+      "issue_id": "I3",
+      "type": "bad_data",
+      "entity": "CMO-BRAVO",
+      "start": "2026-02-16",
+      "end": "2026-04-05",
+      "magnitude": 0.183
+    }
+  ],
+  "bad_row_uids": [
+    "R101-X000",
+    "R101-X001",
+    "R101-X002",
+    "R101-X003",
+    "R101-X004",
+    "R101-X005"
+  ],
+  "stock_breaches": {},
+  "breach_causes": {}
+}

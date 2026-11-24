@@ -1,0 +1,38 @@
+{
+  "seed": 115,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "bad_data",
+      "entity": "CMO-DELTA",
+      "start": "2026-03-16",
+      "end": "2026-04-26",
+      "magnitude": 0.493
+    },
+    {
+      "issue_id": "I2",
+      "type": "api_supply_delay",
+      "entity": "CMO-ALPHA",
+      "start": "2026-03-23",
+      "end": "2026-04-26",
+      "magnitude": 0.782
+    },
+    {
+      "issue_id": "I3",
+      "type": "capa_overdue",
+      "entity": "CMO-ALPHA",
+      "start": "2026-02-16",
+      "end": "2026-03-22",
+      "magnitude": 0.252
+    }
+  ],
+  "bad_row_uids": [
+    "R115-X000",
+    "R115-X001",
+    "R115-X002",
+    "R115-X003",
+    "R115-X004"
+  ],
+  "stock_breaches": {},
+  "breach_causes": {}
+}

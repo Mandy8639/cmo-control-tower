@@ -1,0 +1,32 @@
+{
+  "seed": 107,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "capa_overdue",
+      "entity": "CMO-BRAVO",
+      "start": "2026-02-23",
+      "end": "2026-04-05",
+      "magnitude": 0.717
+    },
+    {
+      "issue_id": "I2",
+      "type": "deviation_backlog",
+      "entity": "CMO-DELTA",
+      "start": "2026-02-23",
+      "end": "2026-04-12",
+      "magnitude": 0.662
+    },
+    {
+      "issue_id": "I3",
+      "type": "overdue_actions",
+      "entity": "CMO-BRAVO",
+      "start": "2026-03-02",
+      "end": "2026-04-26",
+      "magnitude": 0.584
+    }
+  ],
+  "bad_row_uids": [],
+  "stock_breaches": {},
+  "breach_causes": {}
+}

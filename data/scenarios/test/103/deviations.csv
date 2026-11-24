@@ -1,0 +1,6 @@
+deviation_id,partner,batch_id,opened,closed,category,severity
+DEV-103-0003,CMO-BRAVO,BEX200003,2026-03-30,2026-04-21,environmental,major
+DEV-103-0009,CMO-BRAVO,BEX200009,2026-04-02,2026-04-19,equipment,major
+DEV-103-0020,CMO-BRAVO,BEX200020,2026-03-08,2026-03-23,process,major
+DEV-103-0021,CMO-BRAVO,BEX200021,2026-04-05,2026-04-18,documentation,major
+DEV-103-0076,CMO-ALPHA,BEX100076,2026-02-02,2026-02-08,environmental,minor

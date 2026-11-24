@@ -1,0 +1,59 @@
+{
+  "seed": 8,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "capacity_loss",
+      "entity": "CMO-ALPHA",
+      "start": "2026-02-23",
+      "end": "2026-03-15",
+      "magnitude": 0.483
+    },
+    {
+      "issue_id": "I2",
+      "type": "bad_data",
+      "entity": "CMO-CHARLIE",
+      "start": "2026-03-16",
+      "end": "2026-04-19",
+      "magnitude": 0.829
+    },
+    {
+      "issue_id": "I3",
+      "type": "capa_overdue",
+      "entity": "CPO-ECHO",
+      "start": "2026-03-02",
+      "end": "2026-04-19",
+      "magnitude": 0.635
+    }
+  ],
+  "bad_row_uids": [
+    "R008-X000",
+    "R008-X001",
+    "R008-X002",
+    "R008-X003",
+    "R008-X004",
+    "R008-X005"
+  ],
+  "stock_breaches": {
+    "0713-0943": [
+      "2026-06-22",
+      "2026-06-29"
+    ],
+    "0713-5501": [
+      "2026-06-29"
+    ]
+  },
+  "breach_causes": {
+    "0713-0943": {
+      "I1": [
+        "2026-06-22",
+        "2026-06-29"
+      ]
+    },
+    "0713-5501": {
+      "I1": [
+        "2026-06-29"
+      ]
+    }
+  }
+}

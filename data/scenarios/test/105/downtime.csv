@@ -1,0 +1,5 @@
+partner,line,start,end,reason
+CMO-ALPHA,L1,2026-04-03,2026-04-04,planned maintenance
+CMO-BRAVO,L1,2026-04-18,2026-04-20,planned maintenance
+CMO-DELTA,L1,2026-03-06,2026-03-07,planned maintenance
+CPO-ECHO,L2,2026-04-13,2026-05-03,unplanned equipment failure

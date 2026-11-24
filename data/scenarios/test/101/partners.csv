@@ -1,0 +1,6 @@
+partner_id,name,kind,family,plant,otif_target,rft_target,release_days_target,capa_on_time_target,unit_price
+CMO-ALPHA,CMO-Alpha (oral solids),CMO,oral_solid,EX10,0.95,0.97,10,0.9,42.0
+CMO-BRAVO,CMO-Bravo (topicals),CMO,topical,EX20,0.95,0.96,12,0.9,31.0
+CMO-CHARLIE,CMO-Charlie (suppositories),CMO,suppository,EX30,0.93,0.95,12,0.9,27.0
+CMO-DELTA,CMO-Delta (oral liquids),CMO,liquid,EX40,0.95,0.96,11,0.9,36.0
+CPO-ECHO,CPO-Echo (packaging),CPO,,EX50,0.97,0.98,4,0.9,5.5

@@ -1,0 +1,40 @@
+{
+  "seed": 9,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "deviation_backlog",
+      "entity": "CMO-CHARLIE",
+      "start": "2026-02-16",
+      "end": "2026-04-12",
+      "magnitude": 0.439
+    },
+    {
+      "issue_id": "I2",
+      "type": "api_supply_delay",
+      "entity": "CMO-DELTA",
+      "start": "2026-03-09",
+      "end": "2026-04-19",
+      "magnitude": 0.421
+    },
+    {
+      "issue_id": "I3",
+      "type": "price_variance",
+      "entity": "CMO-CHARLIE",
+      "start": "2026-01-26",
+      "end": "2026-03-08",
+      "magnitude": 0.232
+    },
+    {
+      "issue_id": "I4",
+      "type": "overdue_actions",
+      "entity": "CMO-BRAVO",
+      "start": "2026-03-09",
+      "end": "2026-05-03",
+      "magnitude": 0.103
+    }
+  ],
+  "bad_row_uids": [],
+  "stock_breaches": {},
+  "breach_causes": {}
+}

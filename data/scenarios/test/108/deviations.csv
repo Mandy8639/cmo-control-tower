@@ -1,0 +1,4 @@
+deviation_id,partner,batch_id,opened,closed,category,severity
+DEV-108-0045,CMO-ALPHA,BEX100045,2026-04-08,2026-04-11,documentation,minor
+DEV-108-0051,CMO-ALPHA,BEX100051,2026-04-05,2026-04-12,documentation,minor
+DEV-108-0057,CMO-DELTA,BEX400057,2026-04-04,2026-04-10,equipment,minor

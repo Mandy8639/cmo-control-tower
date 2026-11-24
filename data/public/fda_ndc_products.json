@@ -1,0 +1,784 @@
+{
+  "source": "openFDA NDC Directory, https://open.fda.gov (CC0 1.0)",
+  "query": "labeler_name:cosette",
+  "last_updated": "2026-11-20",
+  "total": 97,
+  "results": [
+    {
+      "product_ndc": "0713-0861",
+      "brand_name": "Benicar",
+      "generic_name": "olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0661",
+      "brand_name": "Desonide",
+      "generic_name": "Desonide",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0941",
+      "brand_name": "Benicar",
+      "generic_name": "olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0493",
+      "brand_name": "Hydrocortisone Acetate",
+      "generic_name": "HYDROCORTISONE ACETATE",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "UNAPPROVED DRUG OTHER",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0862",
+      "brand_name": "Benicar",
+      "generic_name": "olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0663",
+      "brand_name": "Fluocinonide",
+      "generic_name": "Fluocinonide",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0942",
+      "brand_name": "Benicar",
+      "generic_name": "olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0503",
+      "brand_name": "ANUCORT-HC",
+      "generic_name": "Hydrocortisone Acetate",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "UNAPPROVED DRUG OTHER",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0664",
+      "brand_name": "Fluocinonide",
+      "generic_name": "Fluocinonide",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0943",
+      "brand_name": "Benicar HCT",
+      "generic_name": "olmesartan medoxomil-hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0863",
+      "brand_name": "Benicar HCT",
+      "generic_name": "olmesartan medoxomil-hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0526",
+      "brand_name": "PROMETHEGAN",
+      "generic_name": "Promethazine Hydrochloride",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0536",
+      "brand_name": "PROMETHEGAN",
+      "generic_name": "promethazine hydrochloride",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0670",
+      "brand_name": "Tazarotene",
+      "generic_name": "Tazarotene",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0864",
+      "brand_name": "Benicar HCT",
+      "generic_name": "olmesartan medoxomil-hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0944",
+      "brand_name": "Benicar HCT",
+      "generic_name": "olmesartan medoxomil-hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0678",
+      "brand_name": "Nystatin",
+      "generic_name": "Nystatin Cream",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0870",
+      "brand_name": "Azor",
+      "generic_name": "amlodipine besylate and olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-5401",
+      "brand_name": "Ambien",
+      "generic_name": "zolpidem tartrate",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "83390-107",
+      "brand_name": "Clomiphene Citrate",
+      "generic_name": "Clomiphene Citrate",
+      "dosage_form": "TABLET",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals NC Laboratories, LLC"
+    },
+    {
+      "product_ndc": "0713-0560",
+      "brand_name": "Hydrocortisone Valerate",
+      "generic_name": "HYDROCORTISONE VALERATE",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0132",
+      "brand_name": "PROMETHEGAN",
+      "generic_name": "promethazine hydrochloride",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0871",
+      "brand_name": "Azor",
+      "generic_name": "amlodipine besylate and olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-5421",
+      "brand_name": "Ambien",
+      "generic_name": "zolpidem tartrate",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0564",
+      "brand_name": "NITROGLYCERIN",
+      "generic_name": "nitroglycerin",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0682",
+      "brand_name": "Gentamicin Sulfate",
+      "generic_name": "Gentamicin Sulfate",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0135",
+      "brand_name": "Prochlorperazine",
+      "generic_name": "Prochlorperazine",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0574",
+      "brand_name": "Metronidazole",
+      "generic_name": "metronidazole",
+      "dosage_form": "GEL",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0683",
+      "brand_name": "Gentamicin Sulfate",
+      "generic_name": "Gentamicin Sulfate",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0872",
+      "brand_name": "Azor",
+      "generic_name": "amlodipine besylate and olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-5501",
+      "brand_name": "Ambien CR",
+      "generic_name": "zolpidem tartrate",
+      "dosage_form": "TABLET, COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0166",
+      "brand_name": "MIGERGOT",
+      "generic_name": "Ergotamine Tartrate and Caffeine",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0223",
+      "brand_name": "Fluocinolone Acetonide",
+      "generic_name": "Fluocinolone Acetonide",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0873",
+      "brand_name": "Azor",
+      "generic_name": "amlodipine besylate and olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-5521",
+      "brand_name": "Ambien CR",
+      "generic_name": "zolpidem tartrate",
+      "dosage_form": "TABLET, COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0575",
+      "brand_name": "Metronidazole",
+      "generic_name": "metronidazole",
+      "dosage_form": "GEL",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0686",
+      "brand_name": "Nystatin",
+      "generic_name": "Nystatin Ointment",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0874",
+      "brand_name": "Tribenzor",
+      "generic_name": "olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0709",
+      "brand_name": "FLUOCINOLONE ACETONIDE",
+      "generic_name": "FLUOCINOLONE ACETONIDE",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0224",
+      "brand_name": "Fluocinolone Acetonide",
+      "generic_name": "Fluocinolone Acetonide",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0592",
+      "brand_name": "Ketoconazole",
+      "generic_name": "Ketoconazole",
+      "dosage_form": "SHAMPOO, SUSPENSION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0875",
+      "brand_name": "Tribenzor",
+      "generic_name": "olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0720",
+      "brand_name": "HYDROCORTISONE VALERATE",
+      "generic_name": "HYDROCORTISONE VALERATE",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0225",
+      "brand_name": "Triamcinolone Acetonide",
+      "generic_name": "Triamcinolone Acetonide",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0593",
+      "brand_name": "MICONAZOLE 3 COMBINATION PACK (miconazole nitrate) kit",
+      "generic_name": "Miconazole nitrate",
+      "dosage_form": "KIT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0765",
+      "brand_name": "Tazarotene",
+      "generic_name": "Tazarotene",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0876",
+      "brand_name": "Tribenzor",
+      "generic_name": "olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0226",
+      "brand_name": "Triamcinolone Acetonide",
+      "generic_name": "Triamcinolone Acetonide",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0622",
+      "brand_name": "Triple Antibiotic Plus",
+      "generic_name": "Polymyxin B Sulfate, Bacitracin Zinc, Neomycin Sulfate, Pramoxine HCl",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "OTC MONOGRAPH DRUG",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0631",
+      "brand_name": "Fluticasone Propionate",
+      "generic_name": "Fluticasone Propionate",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0877",
+      "brand_name": "Tribenzor",
+      "generic_name": "olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0780",
+      "brand_name": "Promethazine Hydrochloride and Dextromethorphan Hydrobromide",
+      "generic_name": "Promethazine Hydrochloride and Dextromethorphan Hydrobromide",
+      "dosage_form": "SOLUTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0228",
+      "brand_name": "Triamcinolone Acetonide",
+      "generic_name": "Triamcinolone Acetonide",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0229",
+      "brand_name": "Triamcinolone Acetonide",
+      "generic_name": "Triamcinolone Acetonide",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0791",
+      "brand_name": "Sucralfate",
+      "generic_name": "Sucralfate",
+      "dosage_form": "SUSPENSION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0878",
+      "brand_name": "Tribenzor",
+      "generic_name": "olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0632",
+      "brand_name": "Fluticasone Propionate",
+      "generic_name": "Fluticasone Propionate",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0676",
+      "brand_name": "Triamcinolone Acetonide",
+      "generic_name": "Triamcinolone Acetonide",
+      "dosage_form": "LOTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0865",
+      "brand_name": "Benicar HCT",
+      "generic_name": "olmesartan medoxomil-hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0945",
+      "brand_name": "Benicar HCT",
+      "generic_name": "olmesartan medoxomil-hydrochlorothiazide",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0552",
+      "brand_name": "Terconazole",
+      "generic_name": "Terconazole",
+      "dosage_form": "SUPPOSITORY",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0804",
+      "brand_name": "TAZAROTENE",
+      "generic_name": "tazarotene",
+      "dosage_form": "GEL",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0881",
+      "brand_name": "Effient",
+      "generic_name": "Prasugrel Hydrochloride",
+      "dosage_form": "TABLET, COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0633",
+      "brand_name": "Metronidazole",
+      "generic_name": "Metronidazole",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0268",
+      "brand_name": "Triple Antibiotic",
+      "generic_name": "Polymyxin B Sulfate, Bacitracin Zinc and Neomycin Sulfate",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "OTC MONOGRAPH DRUG",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0805",
+      "brand_name": "TAZAROTENE",
+      "generic_name": "tazarotene",
+      "dosage_form": "GEL",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0882",
+      "brand_name": "Effient",
+      "generic_name": "Prasugrel Hydrochloride",
+      "dosage_form": "TABLET, COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0634",
+      "brand_name": "Mometasone Furoate",
+      "generic_name": "Mometasone Furoate",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0280",
+      "brand_name": "Bacitracin",
+      "generic_name": "Bacitracin",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "OTC MONOGRAPH DRUG",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0635",
+      "brand_name": "Mometasone Furoate",
+      "generic_name": "Mometasone Furoate",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0807",
+      "brand_name": "Betamethasone Dipropionate",
+      "generic_name": "Betamethasone Dipropionate",
+      "dosage_form": "LOTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0883",
+      "brand_name": "Evoxac",
+      "generic_name": "cevimeline hydrochloride",
+      "dosage_form": "CAPSULE",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0318",
+      "brand_name": "Calcipotriene",
+      "generic_name": "Calcipotriene",
+      "dosage_form": "SOLUTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0326",
+      "brand_name": "Betamethasone Valerate",
+      "generic_name": "Betamethasone Valerate",
+      "dosage_form": "CREAM",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0885",
+      "brand_name": "Clomid",
+      "generic_name": "Clomiphene Citrate",
+      "dosage_form": "TABLET",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0637",
+      "brand_name": "Metronidazole",
+      "generic_name": "Metronidazole",
+      "dosage_form": "GEL",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0823",
+      "brand_name": "Promethazine Hydrochloride and Codeine Phosphate",
+      "generic_name": "Promethazine Hydrochloride and Codeine Phosphate",
+      "dosage_form": "SOLUTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0886",
+      "brand_name": "DAPSONE",
+      "generic_name": "dapsone",
+      "dosage_form": "GEL",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0638",
+      "brand_name": "Ciclopirox Olamine",
+      "generic_name": "Ciclopirox Olamine",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0848",
+      "brand_name": "calcipotriene and betamethasone dipropionate",
+      "generic_name": "calcipotriene and betamethasone dipropionate",
+      "dosage_form": "SUSPENSION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0327",
+      "brand_name": "Betamethasone Valerate",
+      "generic_name": "Betamethasone Valerate",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0897",
+      "brand_name": "Vyleesi",
+      "generic_name": "bremelanotide",
+      "dosage_form": "INJECTION",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0849",
+      "brand_name": "hydrocortisone and acetic acid",
+      "generic_name": "hydrocortisone and acetic acid",
+      "dosage_form": "SOLUTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0339",
+      "brand_name": "Halobetasol Propionate",
+      "generic_name": "Halobetasol Propionate",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0640",
+      "brand_name": "Halobetasol Propionate",
+      "generic_name": "Halobetasol Propionate",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0850",
+      "brand_name": "Griseofulvin",
+      "generic_name": "Griseofulvin",
+      "dosage_form": "SUSPENSION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0915",
+      "brand_name": "Evoxac",
+      "generic_name": "cevimeline hydrochloride",
+      "dosage_form": "SOLUTION",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0351",
+      "brand_name": "Prochlorperazine Edisylate",
+      "generic_name": "Prochlorperazine Edisylate",
+      "dosage_form": "INJECTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0655",
+      "brand_name": "Triamcinolone Acetonide",
+      "generic_name": "Triamcinolone Acetonide",
+      "dosage_form": "PASTE",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0352",
+      "brand_name": "Betaine",
+      "generic_name": "Betaine",
+      "dosage_form": "POWDER, FOR SOLUTION",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0656",
+      "brand_name": "Clobetasol Propionate",
+      "generic_name": "Clobetasol Propionate",
+      "dosage_form": "OINTMENT",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0937",
+      "brand_name": "cevimeline hydrochloride",
+      "generic_name": "cevimeline hydrochloride",
+      "dosage_form": "CAPSULE",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0851",
+      "brand_name": "ciprofloxacin hydrochloride and hydrocortisone",
+      "generic_name": "ciprofloxacin hydrochloride and hydrocortisone",
+      "dosage_form": "SUSPENSION/ DROPS",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0353",
+      "brand_name": "DOCOSANOL",
+      "generic_name": "Docosanol",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0940",
+      "brand_name": "Benicar",
+      "generic_name": "olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0860",
+      "brand_name": "Benicar",
+      "generic_name": "olmesartan medoxomil",
+      "dosage_form": "TABLET, FILM COATED",
+      "marketing_category": "NDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    },
+    {
+      "product_ndc": "0713-0659",
+      "brand_name": "Betamethasone Dipropionate",
+      "generic_name": "Betamethasone Dipropionate",
+      "dosage_form": "CREAM",
+      "marketing_category": "ANDA",
+      "labeler_name": "Cosette Pharmaceuticals, Inc."
+    }
+  ]
+}

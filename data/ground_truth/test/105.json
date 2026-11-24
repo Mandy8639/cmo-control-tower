@@ -1,0 +1,45 @@
+{
+  "seed": 105,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "api_supply_delay",
+      "entity": "CMO-CHARLIE",
+      "start": "2026-01-26",
+      "end": "2026-03-22",
+      "magnitude": 0.634
+    },
+    {
+      "issue_id": "I2",
+      "type": "deviation_backlog",
+      "entity": "CMO-ALPHA",
+      "start": "2026-03-09",
+      "end": "2026-04-12",
+      "magnitude": 0.986
+    },
+    {
+      "issue_id": "I3",
+      "type": "capacity_loss",
+      "entity": "CPO-ECHO",
+      "start": "2026-04-13",
+      "end": "2026-05-03",
+      "magnitude": 0.168
+    }
+  ],
+  "bad_row_uids": [],
+  "stock_breaches": {
+    "0713-0883": [
+      "2026-05-04"
+    ]
+  },
+  "breach_causes": {
+    "0713-0883": {
+      "I2": [
+        "2026-05-04"
+      ],
+      "I3": [
+        "2026-05-04"
+      ]
+    }
+  }
+}

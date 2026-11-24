@@ -1,0 +1,46 @@
+{
+  "seed": 111,
+  "issues": [
+    {
+      "issue_id": "I1",
+      "type": "bad_data",
+      "entity": "CMO-DELTA",
+      "start": "2026-03-30",
+      "end": "2026-05-17",
+      "magnitude": 0.135
+    },
+    {
+      "issue_id": "I2",
+      "type": "api_supply_delay",
+      "entity": "CMO-ALPHA",
+      "start": "2026-04-06",
+      "end": "2026-05-10",
+      "magnitude": 0.313
+    },
+    {
+      "issue_id": "I3",
+      "type": "deviation_backlog",
+      "entity": "CMO-BRAVO",
+      "start": "2026-01-26",
+      "end": "2026-03-22",
+      "magnitude": 0.042
+    },
+    {
+      "issue_id": "I4",
+      "type": "overdue_actions",
+      "entity": "CPO-ECHO",
+      "start": "2026-02-16",
+      "end": "2026-03-22",
+      "magnitude": 0.27
+    }
+  ],
+  "bad_row_uids": [
+    "R111-X000",
+    "R111-X001",
+    "R111-X002",
+    "R111-X003",
+    "R111-X004"
+  ],
+  "stock_breaches": {},
+  "breach_causes": {}
+}

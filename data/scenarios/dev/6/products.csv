@@ -1,0 +1,15 @@
+material,description,dosage_form,family,cmo,cpo,forecast_weekly_th,safety_stock_weeks
+0713-0280,Bacitracin (Bacitracin),OINTMENT,topical,CMO-BRAVO,CPO-ECHO,52.3,4.0
+0713-0326,Betamethasone Valerate (Betamethasone Valerate),CREAM,topical,CMO-BRAVO,CPO-ECHO,40.6,4.0
+0713-0503,ANUCORT-HC (Hydrocortisone Acetate),SUPPOSITORY,suppository,CMO-CHARLIE,CPO-ECHO,42.1,4.0
+0713-0807,Betamethasone Dipropionate (Betamethasone Dipropionate),LOTION,topical,CMO-BRAVO,CPO-ECHO,42.5,4.0
+0713-0861,Benicar (olmesartan medoxomil),"TABLET, FILM COATED",oral_solid,CMO-ALPHA,CPO-ECHO,79.2,4.0
+0713-0870,Azor (amlodipine besylate and olmesartan medoxomil),"TABLET, FILM COATED",oral_solid,CMO-ALPHA,CPO-ECHO,58.0,4.0
+0713-0874,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),"TABLET, FILM COATED",oral_solid,CMO-ALPHA,CPO-ECHO,60.5,4.0
+0713-0881,Effient (Prasugrel Hydrochloride),"TABLET, COATED",oral_solid,CMO-ALPHA,CPO-ECHO,39.8,4.0
+0713-0883,Evoxac (cevimeline hydrochloride),CAPSULE,oral_solid,CMO-ALPHA,CPO-ECHO,60.8,4.0
+0713-0915,Evoxac (cevimeline hydrochloride),SOLUTION,liquid,CMO-DELTA,CPO-ECHO,27.4,4.0
+0713-0937,cevimeline hydrochloride (cevimeline hydrochloride),CAPSULE,oral_solid,CMO-ALPHA,CPO-ECHO,23.1,4.0
+0713-0943,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),"TABLET, FILM COATED",oral_solid,CMO-ALPHA,CPO-ECHO,71.0,4.0
+0713-5401,Ambien (zolpidem tartrate),"TABLET, FILM COATED",oral_solid,CMO-ALPHA,CPO-ECHO,20.5,4.0
+0713-5501,Ambien CR (zolpidem tartrate),"TABLET, COATED",oral_solid,CMO-ALPHA,CPO-ECHO,78.7,4.0

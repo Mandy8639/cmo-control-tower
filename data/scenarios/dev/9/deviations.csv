@@ -1,0 +1,3 @@
+deviation_id,partner,batch_id,opened,closed,category,severity
+DEV-009-0015,CMO-CHARLIE,BEX300015,2026-04-07,2026-04-20,process,major
+DEV-009-0064,CMO-ALPHA,BEX100064,2026-05-21,2026-05-28,environmental,minor
