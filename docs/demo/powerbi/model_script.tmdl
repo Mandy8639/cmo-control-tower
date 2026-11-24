@@ -1,0 +1,72 @@
+createOrReplace
+
+	relationship rel_delivery_date
+		fromColumn: fact_delivery.promised
+		toColumn: dim_date.date
+
+	relationship rel_batch_date
+		fromColumn: fact_batch.mfg_end
+		toColumn: dim_date.date
+
+	relationship rel_capa_date
+		fromColumn: fact_capa.due
+		toColumn: dim_date.date
+
+	relationship rel_action_date
+		fromColumn: fact_action.due
+		toColumn: dim_date.date
+
+	relationship rel_invoice_date
+		fromColumn: fact_invoice.invoice_date
+		toColumn: dim_date.date
+
+	relationship rel_inventory_date
+		fromColumn: fact_inventory.week_start
+		toColumn: dim_date.date
+
+	ref table fact_delivery
+
+		measure 'Deliveries due' = COUNTROWS(fact_delivery)
+			formatString: 0
+
+		measure 'OTIF %' = DIVIDE(CALCULATE(COUNTROWS(fact_delivery), fact_delivery[otif] = TRUE()), COUNTROWS(fact_delivery))
+			formatString: 0.0%
+
+		measure 'Avg days late' = AVERAGE(fact_delivery[late_days])
+			formatString: 0.0
+
+	ref table fact_batch
+
+		measure 'RFT %' = DIVIDE(CALCULATE(COUNTROWS(fact_batch), fact_batch[has_deviation] = FALSE()), COUNTROWS(fact_batch))
+			formatString: 0.0%
+
+	ref table fact_capa
+
+		measure 'CAPA on time %' = VAR AsOf = CALCULATE(MAX(fact_inventory[week_start]), ALL(fact_inventory)) + 7 RETURN DIVIDE(CALCULATE(COUNTROWS(fact_capa), fact_capa[on_time] = TRUE(), fact_capa[due] <= AsOf), CALCULATE(COUNTROWS(fact_capa), fact_capa[due] <= AsOf))
+			formatString: 0.0%
+
+	ref table fact_action
+
+		measure 'Actions on time %' = VAR AsOf = CALCULATE(MAX(fact_inventory[week_start]), ALL(fact_inventory)) + 7 RETURN DIVIDE(CALCULATE(COUNTROWS(fact_action), fact_action[on_time] = TRUE(), fact_action[due] <= AsOf), CALCULATE(COUNTROWS(fact_action), fact_action[due] <= AsOf))
+			formatString: 0.0%
+
+	ref table fact_invoice
+
+		measure 'Cost variance %' = DIVIDE(SUMX(fact_invoice, (fact_invoice[billed_price] - fact_invoice[contract_price]) * fact_invoice[qty_th]), SUMX(fact_invoice, fact_invoice[contract_price] * fact_invoice[qty_th]))
+			formatString: +0.0%;-0.0%;0.0%
+
+	ref table fact_inventory
+
+		measure 'Min weeks of supply' = MIN(fact_inventory[weeks_of_supply])
+			formatString: 0.0
+
+		measure 'Weeks below safety stock' = CALCULATE(COUNTROWS(fact_inventory), fact_inventory[below_safety_stock] = TRUE()) + 0
+			formatString: 0
+
+	ref table fact_risk
+
+		measure 'Open risks' = COUNTROWS(fact_risk)
+			formatString: 0
+
+		measure 'High risks' = CALCULATE(COUNTROWS(fact_risk), fact_risk[severity] = "high") + 0
+			formatString: 0

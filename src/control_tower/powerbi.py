@@ -75,4 +75,25 @@ def export_star(data: Data, findings: list[Finding], out: Path) -> list[Path]:
         df.to_csv(p, index=False, date_format="%Y-%m-%d")
         paths.append(p)
     (out / "DAX_measures.md").write_text(DAX)
+    paths.append(_model_workbook(tables, out / "powerbi_model.xlsx"))
     return paths
+
+
+def _model_workbook(tables: dict[str, pd.DataFrame], path: Path) -> Path:
+    """Same tables as one Excel file, each sheet an Excel Table, for a one-step Power BI upload."""
+    from openpyxl.utils import get_column_letter
+    from openpyxl.worksheet.table import Table, TableStyleInfo
+
+    with pd.ExcelWriter(path, engine="openpyxl") as xw:
+        for name, df in tables.items():
+            df = df.copy()
+            for c in df.columns:
+                if df[c].dtype == "datetime64[ns]" or str(df[c].dtype).startswith("datetime64"):
+                    df[c] = df[c].dt.normalize()
+            df.to_excel(xw, sheet_name=name, index=False)
+            ws = xw.sheets[name]
+            ref = f"A1:{get_column_letter(max(1, len(df.columns)))}{max(2, len(df) + 1)}"
+            t = Table(displayName=name, ref=ref)
+            t.tableStyleInfo = TableStyleInfo(name="TableStyleMedium2", showRowStripes=True)
+            ws.add_table(t)
+    return path

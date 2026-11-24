@@ -75,6 +75,7 @@ and the [Power BI tables](docs/demo/powerbi/).
 - **`powerbi/`**: dim_partner, dim_product, dim_date and fact tables (delivery, batch,
   packaging, deviation, CAPA, action, invoice, inventory, risk, quarantine) plus
   `DAX_measures.md`.
+- **Power BI report** (built in the Power BI service on the generated tables): month slicer, partner scorecard, OTIF trend by partner, high-risk count and the risk list. Screenshot: [`docs/demo/powerbi_report.png`](docs/demo/powerbi_report.png). Relationships and measures: [`docs/demo/powerbi/model_script.tmdl`](docs/demo/powerbi/model_script.tmdl) (paste into TMDL view). For May 2026 its numbers match the Python scorecard and the Excel workbook.
 - **Dashboard**: `app/dashboard.py` (Streamlit): scorecard, OTIF trend, weeks of supply, risks.
 
 ## Run it
