@@ -1,0 +1,2964 @@
+[
+  {
+    "split": "test",
+    "system": "engine",
+    "scenarios": 15,
+    "planted": 51,
+    "caught": 48,
+    "recall": 0.9411764705882353,
+    "supply_issues": 20,
+    "root_cause_correct": 18,
+    "false_alarms": 0,
+    "false_alarms_per_scenario": 0.0,
+    "consequence_findings": 6,
+    "findings": 72,
+    "bad_rows": {
+      "planted": 43,
+      "quarantined": 43,
+      "correct": 43
+    },
+    "per_type": {
+      "api_supply_delay": {
+        "planted": 5,
+        "caught": 4,
+        "cause_right": 4
+      },
+      "bad_data": {
+        "planted": 7,
+        "caught": 7
+      },
+      "capa_overdue": {
+        "planted": 7,
+        "caught": 6
+      },
+      "capacity_loss": {
+        "planted": 6,
+        "caught": 6,
+        "cause_right": 6
+      },
+      "demand_spike": {
+        "planted": 8,
+        "caught": 8
+      },
+      "deviation_backlog": {
+        "planted": 9,
+        "caught": 8,
+        "cause_right": 8
+      },
+      "overdue_actions": {
+        "planted": 5,
+        "caught": 5
+      },
+      "price_variance": {
+        "planted": 4,
+        "caught": 4
+      }
+    },
+    "misses": [
+      {
+        "seed": 102,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 103,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 113,
+        "issue_id": "I2"
+      }
+    ],
+    "wrong_cause": [
+      {
+        "seed": 102,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 113,
+        "issue_id": "I2"
+      }
+    ],
+    "false_alarm_detail": []
+  },
+  {
+    "split": "test",
+    "system": "baseline",
+    "scenarios": 15,
+    "planted": 51,
+    "caught": 43,
+    "recall": 0.8431372549019608,
+    "supply_issues": 20,
+    "root_cause_correct": 0,
+    "false_alarms": 166,
+    "false_alarms_per_scenario": 11.066666666666666,
+    "consequence_findings": 6,
+    "findings": 282,
+    "bad_rows": {
+      "planted": 43,
+      "quarantined": 0,
+      "correct": 0
+    },
+    "per_type": {
+      "api_supply_delay": {
+        "planted": 5,
+        "caught": 5,
+        "cause_right": 0
+      },
+      "bad_data": {
+        "planted": 7,
+        "caught": 0
+      },
+      "capa_overdue": {
+        "planted": 7,
+        "caught": 7
+      },
+      "capacity_loss": {
+        "planted": 6,
+        "caught": 6,
+        "cause_right": 0
+      },
+      "demand_spike": {
+        "planted": 8,
+        "caught": 8
+      },
+      "deviation_backlog": {
+        "planted": 9,
+        "caught": 8,
+        "cause_right": 0
+      },
+      "overdue_actions": {
+        "planted": 5,
+        "caught": 5
+      },
+      "price_variance": {
+        "planted": 4,
+        "caught": 4
+      }
+    },
+    "misses": [
+      {
+        "seed": 101,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 102,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 108,
+        "issue_id": "I4"
+      },
+      {
+        "seed": 109,
+        "issue_id": "I4"
+      },
+      {
+        "seed": 110,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 111,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 114,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 115,
+        "issue_id": "I1"
+      }
+    ],
+    "wrong_cause": [
+      {
+        "seed": 101,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 102,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 103,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 104,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 105,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 105,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 105,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 106,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 107,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 108,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 109,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 111,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 111,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 112,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 112,
+        "issue_id": "I4"
+      },
+      {
+        "seed": 113,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 113,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 113,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 114,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 115,
+        "issue_id": "I2"
+      }
+    ],
+    "false_alarm_detail": [
+      {
+        "seed": 101,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 101,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 101,
+        "category": "quality_drift",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 101,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 101,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 101,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 101,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 101,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 102,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-01"
+      },
+      {
+        "seed": 102,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 102,
+        "category": "quality_drift",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 102,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 102,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 102,
+        "category": "quality_drift",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-04"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 102,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 102,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 103,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 103,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 103,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 104,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 104,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 104,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 104,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 104,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 105,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 105,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-05"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 105,
+        "category": "quality_drift",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 105,
+        "category": "late_supply",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 105,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 105,
+        "category": "quality_drift",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 105,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 105,
+        "category": "quality_drift",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 105,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 105,
+        "category": "late_supply",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 105,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 106,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 106,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 106,
+        "category": "late_supply",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "otif_status red in 2026-04"
+      },
+      {
+        "seed": 106,
+        "category": "late_supply",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 106,
+        "category": "late_supply",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 106,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 106,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 106,
+        "category": "late_supply",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 106,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 106,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 106,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 106,
+        "category": "late_supply",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 106,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 106,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 106,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 107,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 107,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 107,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 107,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 107,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 107,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 108,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-04"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 108,
+        "category": "quality_drift",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-04"
+      },
+      {
+        "seed": 108,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 108,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 109,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-01"
+      },
+      {
+        "seed": 109,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 109,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-06"
+      },
+      {
+        "seed": 109,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 109,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 109,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 109,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 109,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 109,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 109,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 110,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 110,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 110,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 110,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 111,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 111,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 111,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 111,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 111,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 111,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 111,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 112,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 112,
+        "category": "quality_drift",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 112,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 112,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 112,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 113,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 113,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 113,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 113,
+        "category": "late_supply",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 113,
+        "category": "quality_drift",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-05"
+      },
+      {
+        "seed": 113,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 113,
+        "category": "late_supply",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "otif_status red in 2026-05"
+      },
+      {
+        "seed": 113,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 113,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 114,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 114,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-06"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 114,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 114,
+        "category": "quality_drift",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 114,
+        "category": "quality_drift",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-04"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 114,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 115,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 115,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-04"
+      },
+      {
+        "seed": 115,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 115,
+        "category": "quality_drift",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 115,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 115,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 115,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 115,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      }
+    ]
+  },
+  {
+    "split": "dev",
+    "system": "engine",
+    "scenarios": 10,
+    "planted": 38,
+    "caught": 38,
+    "recall": 1.0,
+    "supply_issues": 18,
+    "root_cause_correct": 18,
+    "false_alarms": 0,
+    "false_alarms_per_scenario": 0.0,
+    "consequence_findings": 5,
+    "findings": 51,
+    "bad_rows": {
+      "planted": 22,
+      "quarantined": 22,
+      "correct": 22
+    },
+    "per_type": {
+      "api_supply_delay": {
+        "planted": 7,
+        "caught": 7,
+        "cause_right": 7
+      },
+      "bad_data": {
+        "planted": 3,
+        "caught": 3
+      },
+      "capa_overdue": {
+        "planted": 5,
+        "caught": 5
+      },
+      "capacity_loss": {
+        "planted": 5,
+        "caught": 5,
+        "cause_right": 5
+      },
+      "demand_spike": {
+        "planted": 5,
+        "caught": 5
+      },
+      "deviation_backlog": {
+        "planted": 6,
+        "caught": 6,
+        "cause_right": 6
+      },
+      "overdue_actions": {
+        "planted": 6,
+        "caught": 6
+      },
+      "price_variance": {
+        "planted": 1,
+        "caught": 1
+      }
+    },
+    "misses": [],
+    "wrong_cause": [],
+    "false_alarm_detail": []
+  },
+  {
+    "split": "dev",
+    "system": "baseline",
+    "scenarios": 10,
+    "planted": 38,
+    "caught": 35,
+    "recall": 0.9210526315789473,
+    "supply_issues": 18,
+    "root_cause_correct": 0,
+    "false_alarms": 112,
+    "false_alarms_per_scenario": 11.2,
+    "consequence_findings": 8,
+    "findings": 196,
+    "bad_rows": {
+      "planted": 22,
+      "quarantined": 0,
+      "correct": 0
+    },
+    "per_type": {
+      "api_supply_delay": {
+        "planted": 7,
+        "caught": 7,
+        "cause_right": 0
+      },
+      "bad_data": {
+        "planted": 3,
+        "caught": 0
+      },
+      "capa_overdue": {
+        "planted": 5,
+        "caught": 5
+      },
+      "capacity_loss": {
+        "planted": 5,
+        "caught": 5,
+        "cause_right": 0
+      },
+      "demand_spike": {
+        "planted": 5,
+        "caught": 5
+      },
+      "deviation_backlog": {
+        "planted": 6,
+        "caught": 6,
+        "cause_right": 0
+      },
+      "overdue_actions": {
+        "planted": 6,
+        "caught": 6
+      },
+      "price_variance": {
+        "planted": 1,
+        "caught": 1
+      }
+    },
+    "misses": [
+      {
+        "seed": 1,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 5,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 8,
+        "issue_id": "I2"
+      }
+    ],
+    "wrong_cause": [
+      {
+        "seed": 1,
+        "issue_id": "I4"
+      },
+      {
+        "seed": 2,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 2,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 3,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 3,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 3,
+        "issue_id": "I4"
+      },
+      {
+        "seed": 4,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 5,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 6,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 6,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 7,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 7,
+        "issue_id": "I3"
+      },
+      {
+        "seed": 8,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 9,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 9,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 10,
+        "issue_id": "I1"
+      },
+      {
+        "seed": 10,
+        "issue_id": "I2"
+      },
+      {
+        "seed": 10,
+        "issue_id": "I3"
+      }
+    ],
+    "false_alarm_detail": [
+      {
+        "seed": 1,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 1,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 1,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 1,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 1,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 1,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 1,
+        "category": "quality_drift",
+        "entity": "CMO-DELTA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-01"
+      },
+      {
+        "seed": 1,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 1,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 1,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 2,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-01"
+      },
+      {
+        "seed": 2,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 2,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 2,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 2,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 2,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 2,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 2,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 2,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 2,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 3,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 3,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-05"
+      },
+      {
+        "seed": 3,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 3,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 3,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 3,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 3,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 3,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 4,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 4,
+        "category": "quality_drift",
+        "entity": "CMO-BRAVO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-04"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 4,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 4,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 5,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-01"
+      },
+      {
+        "seed": 5,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 5,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 5,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 5,
+        "category": "quality_drift",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-06"
+      },
+      {
+        "seed": 5,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 5,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 5,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 5,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 6,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 6,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 7,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 7,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 7,
+        "category": "quality_drift",
+        "entity": "CMO-BRAVO",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-01"
+      },
+      {
+        "seed": 7,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 7,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 7,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 7,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 7,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 7,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 8,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "rft_status red in 2026-02"
+      },
+      {
+        "seed": 8,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 8,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-03"
+      },
+      {
+        "seed": 8,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 8,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-05"
+      },
+      {
+        "seed": 8,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "rft_status red in 2026-06"
+      },
+      {
+        "seed": 8,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 8,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 8,
+        "category": "quality_drift",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-01"
+      },
+      {
+        "seed": 8,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 8,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 8,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 8,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 8,
+        "category": "quality_drift",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-05"
+      },
+      {
+        "seed": 8,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 8,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 9,
+        "category": "capa_overdue",
+        "entity": "CMO-ALPHA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 9,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-05"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-07-01",
+        "end": "2026-07-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-07"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 9,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-04"
+      },
+      {
+        "seed": 9,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-06"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 9,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 9,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 9,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-05"
+      },
+      {
+        "seed": 10,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-01-01",
+        "end": "2026-01-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-01"
+      },
+      {
+        "seed": 10,
+        "category": "quality_drift",
+        "entity": "CMO-ALPHA",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "rft_status red in 2026-05"
+      },
+      {
+        "seed": 10,
+        "category": "overdue_actions",
+        "entity": "CMO-ALPHA",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      },
+      {
+        "seed": 10,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "capa_status red in 2026-02"
+      },
+      {
+        "seed": 10,
+        "category": "overdue_actions",
+        "entity": "CMO-BRAVO",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 10,
+        "category": "capa_overdue",
+        "entity": "CMO-BRAVO",
+        "start": "2026-05-01",
+        "end": "2026-05-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-05"
+      },
+      {
+        "seed": 10,
+        "category": "capa_overdue",
+        "entity": "CMO-CHARLIE",
+        "start": "2026-04-01",
+        "end": "2026-04-30",
+        "cause": null,
+        "summary": "capa_status red in 2026-04"
+      },
+      {
+        "seed": 10,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-02-01",
+        "end": "2026-02-28",
+        "cause": null,
+        "summary": "actions_status red in 2026-02"
+      },
+      {
+        "seed": 10,
+        "category": "capa_overdue",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 10,
+        "category": "overdue_actions",
+        "entity": "CMO-DELTA",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "actions_status red in 2026-03"
+      },
+      {
+        "seed": 10,
+        "category": "capa_overdue",
+        "entity": "CPO-ECHO",
+        "start": "2026-03-01",
+        "end": "2026-03-31",
+        "cause": null,
+        "summary": "capa_status red in 2026-03"
+      },
+      {
+        "seed": 10,
+        "category": "overdue_actions",
+        "entity": "CPO-ECHO",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "cause": null,
+        "summary": "actions_status red in 2026-06"
+      }
+    ]
+  }
+]

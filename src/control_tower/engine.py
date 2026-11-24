@@ -111,7 +111,9 @@ def quality_drift(data: Data) -> list[Finding]:
         for grp in _clusters(g.opened, 28):
             rows = g.loc[grp]
             # two or more deviations open >10 days on average, or one open 12+ days that held release
-            held = rows.batch_id.isin(data["batches"][(data["batches"].qa_release - data["batches"].mfg_end).dt.days > PARTNER_BY_ID[partner].release_days_target].batch_id)
+            held = rows.batch_id.isin(
+                data["batches"][(data["batches"].qa_release - data["batches"].mfg_end).dt.days > PARTNER_BY_ID[partner].release_days_target].batch_id
+            )
             if (len(rows) >= 2 and rows.days_open.mean() > 10) or (rows.days_open.max() >= 12 and held.any()):
                 out.append(
                     Finding(
@@ -257,7 +259,13 @@ def data_quality(data: Data) -> list[Finding]:
 def find_risks(data: Data) -> list[Finding]:
     facts = delivery_facts(data)
     findings = (
-        late_supply(data, facts) + quality_drift(data) + capa_overdue(data) + overdue_actions(data) + price_variance(data) + inventory_risk(data, facts) + data_quality(data)
+        late_supply(data, facts)
+        + quality_drift(data)
+        + capa_overdue(data)
+        + overdue_actions(data)
+        + price_variance(data)
+        + inventory_risk(data, facts)
+        + data_quality(data)
     )
     order = {"high": 0, "medium": 1, "low": 2}
     return sorted(findings, key=lambda f: (order[f.severity], f.category, f.entity))

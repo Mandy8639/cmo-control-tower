@@ -46,7 +46,8 @@ def delivery_facts(data: Data) -> pd.DataFrame:
         if bid in b.index:
             x = b.loc[bid]
             ready = max(
-                x.planned_start, (rec.loc[bid].actual_receipt + pd.Timedelta(days=1)) if bid in rec.index and pd.notna(rec.loc[bid].actual_receipt) else x.planned_start
+                x.planned_start,
+                (rec.loc[bid].actual_receipt + pd.Timedelta(days=1)) if bid in rec.index and pd.notna(rec.loc[bid].actual_receipt) else x.planned_start,
             )
             start = x.actual_start if pd.notna(x.actual_start) else as_of
             out["capacity_delay"] = max(0, (start - ready).days)

@@ -35,6 +35,14 @@ def baseline_findings(data: Data) -> list[Finding]:
     inv = inv[inv.closing_th < SAFETY_STOCK_WEEKS * inv.forecast_weekly_th]
     for (sku, month), g in inv.groupby([inv.material, inv.week_start.dt.to_period("M")]):
         out.append(
-            Finding("inventory_risk", str(sku), g.week_start.min().date().isoformat(), g.week_start.max().date().isoformat(), None, "medium", f"below safety stock in {month}")
+            Finding(
+                "inventory_risk",
+                str(sku),
+                g.week_start.min().date().isoformat(),
+                g.week_start.max().date().isoformat(),
+                None,
+                "medium",
+                f"below safety stock in {month}",
+            )
         )
     return out

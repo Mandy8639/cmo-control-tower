@@ -1,0 +1,365 @@
+week_start,material,opening_th,receipts_th,demand_th,closing_th,description,forecast_weekly_th,cmo,weeks_of_supply,below_safety_stock
+2026-01-05,0713-0280,356.7,0.0,30.5,326.2,Bacitracin (Bacitracin),29.2,CMO-BRAVO,11.17123287671233,False
+2026-01-12,0713-0280,326.2,0.0,31.3,294.9,Bacitracin (Bacitracin),29.2,CMO-BRAVO,10.09931506849315,False
+2026-01-19,0713-0280,294.9,0.0,26.4,268.5,Bacitracin (Bacitracin),29.2,CMO-BRAVO,9.195205479452055,False
+2026-01-26,0713-0280,268.5,0.0,26.5,242.0,Bacitracin (Bacitracin),29.2,CMO-BRAVO,8.287671232876713,False
+2026-02-02,0713-0280,242.0,0.0,28.2,213.8,Bacitracin (Bacitracin),29.2,CMO-BRAVO,7.321917808219179,False
+2026-02-09,0713-0280,213.8,0.0,27.2,186.6,Bacitracin (Bacitracin),29.2,CMO-BRAVO,6.390410958904109,False
+2026-02-16,0713-0280,186.6,113.6,29.2,271.0,Bacitracin (Bacitracin),29.2,CMO-BRAVO,9.28082191780822,False
+2026-02-23,0713-0280,271.0,0.0,26.7,244.3,Bacitracin (Bacitracin),29.2,CMO-BRAVO,8.366438356164384,False
+2026-03-02,0713-0280,244.3,0.0,27.6,216.7,Bacitracin (Bacitracin),29.2,CMO-BRAVO,7.421232876712328,False
+2026-03-09,0713-0280,216.7,115.4,29.8,302.3,Bacitracin (Bacitracin),29.2,CMO-BRAVO,10.352739726027398,False
+2026-03-16,0713-0280,302.3,0.0,28.4,273.9,Bacitracin (Bacitracin),29.2,CMO-BRAVO,9.38013698630137,False
+2026-03-23,0713-0280,273.9,0.0,27.2,246.7,Bacitracin (Bacitracin),29.2,CMO-BRAVO,8.448630136986301,False
+2026-03-30,0713-0280,246.7,0.0,30.1,216.6,Bacitracin (Bacitracin),29.2,CMO-BRAVO,7.417808219178082,False
+2026-04-06,0713-0280,216.6,115.2,29.2,302.6,Bacitracin (Bacitracin),29.2,CMO-BRAVO,10.363013698630137,False
+2026-04-13,0713-0280,302.6,0.0,31.3,271.3,Bacitracin (Bacitracin),29.2,CMO-BRAVO,9.29109589041096,False
+2026-04-20,0713-0280,271.3,0.0,26.4,244.9,Bacitracin (Bacitracin),29.2,CMO-BRAVO,8.386986301369863,False
+2026-04-27,0713-0280,244.9,0.0,31.0,213.9,Bacitracin (Bacitracin),29.2,CMO-BRAVO,7.325342465753425,False
+2026-05-04,0713-0280,213.9,114.4,29.1,299.2,Bacitracin (Bacitracin),29.2,CMO-BRAVO,10.246575342465754,False
+2026-05-11,0713-0280,299.2,0.0,26.6,272.6,Bacitracin (Bacitracin),29.2,CMO-BRAVO,9.335616438356166,False
+2026-05-18,0713-0280,272.6,0.0,31.2,241.4,Bacitracin (Bacitracin),29.2,CMO-BRAVO,8.267123287671232,False
+2026-05-25,0713-0280,241.4,0.0,28.8,212.6,Bacitracin (Bacitracin),29.2,CMO-BRAVO,7.280821917808219,False
+2026-06-01,0713-0280,212.6,113.8,31.4,295.0,Bacitracin (Bacitracin),29.2,CMO-BRAVO,10.102739726027398,False
+2026-06-08,0713-0280,295.0,0.0,26.5,268.5,Bacitracin (Bacitracin),29.2,CMO-BRAVO,9.195205479452055,False
+2026-06-15,0713-0280,268.5,0.0,30.8,237.7,Bacitracin (Bacitracin),29.2,CMO-BRAVO,8.14041095890411,False
+2026-06-22,0713-0280,237.7,0.0,28.3,209.4,Bacitracin (Bacitracin),29.2,CMO-BRAVO,7.171232876712329,False
+2026-06-29,0713-0280,209.4,0.0,31.5,177.9,Bacitracin (Bacitracin),29.2,CMO-BRAVO,6.092465753424658,False
+2026-01-05,0713-0326,343.0,0.0,29.8,313.2,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,10.370860927152318,False
+2026-01-12,0713-0326,313.2,0.0,31.8,281.4,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,9.317880794701987,False
+2026-01-19,0713-0326,281.4,0.0,29.2,252.2,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,8.350993377483444,False
+2026-01-26,0713-0326,252.2,0.0,27.5,224.7,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,7.440397350993377,False
+2026-02-02,0713-0326,224.7,119.2,31.4,312.5,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,10.347682119205299,False
+2026-02-09,0713-0326,312.5,0.0,28.3,284.2,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,9.410596026490065,False
+2026-02-16,0713-0326,284.2,0.0,28.6,255.6,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,8.463576158940397,False
+2026-02-23,0713-0326,255.6,0.0,28.7,226.9,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,7.513245033112583,False
+2026-03-02,0713-0326,226.9,0.0,31.0,195.9,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,6.486754966887418,False
+2026-03-09,0713-0326,195.9,119.4,29.9,285.4,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,9.450331125827814,False
+2026-03-16,0713-0326,285.4,0.0,30.0,255.4,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,8.456953642384107,False
+2026-03-23,0713-0326,255.4,0.0,31.2,224.2,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,7.4238410596026485,False
+2026-03-30,0713-0326,224.2,0.0,32.5,191.7,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,6.347682119205298,False
+2026-04-06,0713-0326,191.7,117.9,31.9,277.7,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,9.195364238410596,False
+2026-04-13,0713-0326,277.7,0.0,27.7,250.0,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,8.27814569536424,False
+2026-04-20,0713-0326,250.0,0.0,28.0,222.0,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,7.3509933774834435,False
+2026-04-27,0713-0326,222.0,118.9,31.7,309.2,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,10.23841059602649,False
+2026-05-04,0713-0326,309.2,0.0,32.4,276.8,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,9.165562913907285,False
+2026-05-11,0713-0326,276.8,0.0,32.5,244.3,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,8.089403973509935,False
+2026-05-18,0713-0326,244.3,0.0,32.9,211.4,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,7.0,False
+2026-05-25,0713-0326,211.4,117.1,31.6,296.9,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,9.831125827814569,False
+2026-06-01,0713-0326,296.9,0.0,28.1,268.8,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,8.90066225165563,False
+2026-06-08,0713-0326,268.8,0.0,27.3,241.5,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,7.996688741721854,False
+2026-06-15,0713-0326,241.5,0.0,31.4,210.1,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,6.956953642384106,False
+2026-06-22,0713-0326,210.1,0.0,31.4,178.7,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,5.917218543046357,False
+2026-06-29,0713-0326,178.7,0.0,30.1,148.6,Betamethasone Valerate (Betamethasone Valerate),30.2,CMO-BRAVO,4.920529801324503,False
+2026-01-05,0713-0503,514.8,0.0,55.1,459.7,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.121031746031747,False
+2026-01-12,0713-0503,459.7,0.0,53.2,406.5,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,8.065476190476192,False
+2026-01-19,0713-0503,406.5,0.0,47.4,359.1,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.125000000000001,False
+2026-01-26,0713-0503,359.1,196.3,49.3,506.1,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,10.041666666666668,False
+2026-02-02,0713-0503,506.1,0.0,53.5,452.6,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,8.980158730158731,False
+2026-02-09,0713-0503,452.6,0.0,47.9,404.7,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,8.029761904761905,False
+2026-02-16,0713-0503,404.7,0.0,45.5,359.2,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.1269841269841265,False
+2026-02-23,0713-0503,359.2,195.9,55.4,499.7,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.91468253968254,False
+2026-03-02,0713-0503,499.7,0.0,53.4,446.3,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,8.855158730158731,False
+2026-03-09,0713-0503,446.3,0.0,46.9,399.4,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.924603174603174,False
+2026-03-16,0713-0503,399.4,0.0,49.5,349.9,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,6.942460317460317,False
+2026-03-23,0713-0503,349.9,196.7,45.4,501.2,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.944444444444445,False
+2026-03-30,0713-0503,501.2,0.0,47.0,454.2,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.011904761904763,False
+2026-04-06,0713-0503,454.2,0.0,53.5,400.7,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.950396825396825,False
+2026-04-13,0713-0503,400.7,0.0,46.2,354.5,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.033730158730159,False
+2026-04-20,0713-0503,354.5,0.0,46.1,308.4,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,6.119047619047619,False
+2026-04-27,0713-0503,308.4,195.9,48.1,456.2,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.051587301587302,False
+2026-05-04,0713-0503,456.2,0.0,47.1,409.1,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,8.117063492063492,False
+2026-05-11,0713-0503,409.1,0.0,49.1,360.0,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.142857142857143,False
+2026-05-18,0713-0503,360.0,198.3,46.1,512.2,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,10.162698412698413,False
+2026-05-25,0713-0503,512.2,0.0,51.7,460.5,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.136904761904763,False
+2026-06-01,0713-0503,460.5,0.0,52.6,407.9,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,8.093253968253968,False
+2026-06-08,0713-0503,407.9,0.0,47.0,360.9,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.160714285714286,False
+2026-06-15,0713-0503,360.9,196.5,55.3,502.1,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.962301587301589,False
+2026-06-22,0713-0503,502.1,0.0,47.8,454.3,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,9.01388888888889,False
+2026-06-29,0713-0503,454.3,0.0,51.3,403.0,ANUCORT-HC (Hydrocortisone Acetate),50.4,CMO-CHARLIE,7.996031746031746,False
+2026-01-05,0713-0807,658.8,0.0,59.6,599.2,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,10.07058823529412,False
+2026-01-12,0713-0807,599.2,0.0,60.3,538.9,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,9.057142857142857,False
+2026-01-19,0713-0807,538.9,0.0,60.9,478.0,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,8.033613445378151,False
+2026-01-26,0713-0807,478.0,0.0,64.1,413.9,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,6.956302521008403,False
+2026-02-02,0713-0807,413.9,233.4,56.7,590.6,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,9.926050420168067,False
+2026-02-09,0713-0807,590.6,0.0,63.7,526.9,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,8.855462184873948,False
+2026-02-16,0713-0807,526.9,0.0,55.5,471.4,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,7.9226890756302515,False
+2026-02-23,0713-0807,471.4,0.0,58.5,412.9,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,6.939495798319327,False
+2026-03-02,0713-0807,412.9,0.0,57.6,355.3,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,5.9714285714285715,False
+2026-03-09,0713-0807,355.3,0.0,59.3,296.0,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,4.974789915966387,False
+2026-03-16,0713-0807,296.0,234.5,53.9,476.6,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,8.010084033613445,False
+2026-03-23,0713-0807,476.6,0.0,56.6,420.0,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,7.0588235294117645,False
+2026-03-30,0713-0807,420.0,0.0,62.7,357.3,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,6.005042016806723,False
+2026-04-06,0713-0807,357.3,0.0,62.2,295.1,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,4.959663865546219,False
+2026-04-13,0713-0807,295.1,231.2,58.8,467.5,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,7.857142857142857,False
+2026-04-20,0713-0807,467.5,0.0,59.6,407.9,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,6.855462184873949,False
+2026-04-27,0713-0807,407.9,233.8,63.8,577.9,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,9.712605042016806,False
+2026-05-04,0713-0807,577.9,0.0,56.3,521.6,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,8.76638655462185,False
+2026-05-11,0713-0807,521.6,0.0,55.0,466.6,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,7.84201680672269,False
+2026-05-18,0713-0807,466.6,0.0,56.7,409.9,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,6.8890756302521,False
+2026-05-25,0713-0807,409.9,233.9,58.0,585.8,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,9.845378151260503,False
+2026-06-01,0713-0807,585.8,0.0,58.3,527.5,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,8.865546218487395,False
+2026-06-08,0713-0807,527.5,0.0,59.7,467.8,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,7.86218487394958,False
+2026-06-15,0713-0807,467.8,0.0,61.8,406.0,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,6.823529411764706,False
+2026-06-22,0713-0807,406.0,234.7,53.6,587.1,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,9.867226890756303,False
+2026-06-29,0713-0807,587.1,0.0,64.5,522.6,Betamethasone Dipropionate (Betamethasone Dipropionate),59.5,CMO-BRAVO,8.783193277310925,False
+2026-01-05,0713-0861,741.3,0.0,71.7,669.6,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,10.130105900151287,False
+2026-01-12,0713-0861,669.6,0.0,66.9,602.7,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,9.11800302571861,False
+2026-01-19,0713-0861,602.7,0.0,61.2,541.5,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,8.19213313161876,False
+2026-01-26,0713-0861,541.5,0.0,67.8,473.7,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,7.16641452344932,False
+2026-02-02,0713-0861,473.7,260.1,72.6,661.2,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,10.003025718608171,False
+2026-02-09,0713-0861,661.2,0.0,69.9,591.3,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,8.94553706505295,False
+2026-02-16,0713-0861,591.3,0.0,60.5,530.8,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,8.030257186081695,False
+2026-02-23,0713-0861,530.8,0.0,62.0,468.8,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,7.092284417549169,False
+2026-03-02,0713-0861,468.8,257.6,68.1,658.3,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,9.959152798789713,False
+2026-03-09,0713-0861,658.3,0.0,61.4,596.9,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,9.030257186081695,False
+2026-03-16,0713-0861,596.9,0.0,71.4,525.5,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,7.950075642965205,False
+2026-03-23,0713-0861,525.5,0.0,61.1,464.4,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,7.0257186081694405,False
+2026-03-30,0713-0861,464.4,259.3,68.2,655.5,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,9.91679273827534,False
+2026-04-06,0713-0861,655.5,0.0,67.1,588.4,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,8.901664145234493,False
+2026-04-13,0713-0861,588.4,0.0,66.4,522.0,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,7.89712556732224,False
+2026-04-20,0713-0861,522.0,0.0,65.0,457.0,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,6.913767019667172,False
+2026-04-27,0713-0861,457.0,0.0,63.7,393.3,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,5.950075642965205,False
+2026-05-04,0713-0861,393.3,259.7,63.1,589.9,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,8.924357034795765,False
+2026-05-11,0713-0861,589.9,0.0,67.1,522.8,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,7.909228441754917,False
+2026-05-18,0713-0861,522.8,0.0,70.2,452.6,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,6.847201210287444,False
+2026-05-25,0713-0861,452.6,0.0,59.6,393.0,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,5.94553706505295,False
+2026-06-01,0713-0861,393.0,0.0,66.3,326.7,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,4.942511346444781,False
+2026-06-08,0713-0861,326.7,256.3,72.2,510.8,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,7.727685325264751,False
+2026-06-15,0713-0861,510.8,0.0,72.6,438.2,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,6.629349470499244,False
+2026-06-22,0713-0861,438.2,0.0,61.8,376.4,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,5.694402420574887,False
+2026-06-29,0713-0861,376.4,0.0,63.1,313.3,Benicar (olmesartan medoxomil),66.1,CMO-ALPHA,4.739788199697429,False
+2026-01-05,0713-0870,321.1,0.0,27.6,293.5,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,11.033834586466165,False
+2026-01-12,0713-0870,293.5,0.0,29.1,264.4,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,9.939849624060148,False
+2026-01-19,0713-0870,264.4,0.0,28.4,236.0,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,8.87218045112782,False
+2026-01-26,0713-0870,236.0,0.0,26.3,209.7,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,7.883458646616541,False
+2026-02-02,0713-0870,209.7,0.0,26.3,183.4,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,6.894736842105263,False
+2026-02-09,0713-0870,183.4,103.9,27.0,260.3,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,9.785714285714286,False
+2026-02-16,0713-0870,260.3,0.0,28.1,232.2,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,8.729323308270676,False
+2026-02-23,0713-0870,232.2,0.0,28.3,203.9,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,7.665413533834586,False
+2026-03-02,0713-0870,203.9,0.0,25.3,178.6,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,6.7142857142857135,False
+2026-03-09,0713-0870,178.6,103.4,26.0,256.0,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,9.62406015037594,False
+2026-03-16,0713-0870,256.0,0.0,24.2,231.8,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,8.714285714285714,False
+2026-03-23,0713-0870,231.8,0.0,28.2,203.6,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,7.654135338345864,False
+2026-03-30,0713-0870,203.6,0.0,27.1,176.5,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,6.635338345864661,False
+2026-04-06,0713-0870,176.5,103.0,27.8,251.7,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,9.462406015037594,False
+2026-04-13,0713-0870,251.7,0.0,25.6,226.1,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,8.5,False
+2026-04-20,0713-0870,226.1,0.0,24.7,201.4,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,7.571428571428571,False
+2026-04-27,0713-0870,201.4,0.0,27.9,173.5,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,6.522556390977443,False
+2026-05-04,0713-0870,173.5,0.0,28.8,144.7,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,5.43984962406015,False
+2026-05-11,0713-0870,144.7,103.6,28.6,219.7,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,8.259398496240602,False
+2026-05-18,0713-0870,219.7,0.0,25.8,193.9,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,7.2894736842105265,False
+2026-05-25,0713-0870,193.9,0.0,24.7,169.2,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,6.360902255639097,False
+2026-06-01,0713-0870,169.2,104.6,29.1,244.7,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,9.199248120300751,False
+2026-06-08,0713-0870,244.7,0.0,24.8,219.9,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,8.266917293233082,False
+2026-06-15,0713-0870,219.9,0.0,28.4,191.5,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,7.1992481203007515,False
+2026-06-22,0713-0870,191.5,0.0,24.1,167.4,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,6.293233082706767,False
+2026-06-29,0713-0870,167.4,0.0,26.8,140.6,Azor (amlodipine besylate and olmesartan medoxomil),26.6,CMO-ALPHA,5.285714285714286,False
+2026-01-05,0713-0874,858.5,0.0,66.9,791.6,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,11.658321060382915,False
+2026-01-12,0713-0874,791.6,0.0,73.7,717.9,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,10.572901325478643,False
+2026-01-19,0713-0874,717.9,0.0,63.7,654.2,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,9.634756995581737,False
+2026-01-26,0713-0874,654.2,0.0,71.3,582.9,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,8.584683357879234,False
+2026-02-02,0713-0874,582.9,0.0,65.4,517.5,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,7.621502209131075,False
+2026-02-09,0713-0874,517.5,267.2,71.0,713.7,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,10.511045655375552,False
+2026-02-16,0713-0874,713.7,0.0,65.1,648.6,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,9.552282768777614,False
+2026-02-23,0713-0874,648.6,0.0,73.3,575.3,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,8.472754050073636,False
+2026-03-02,0713-0874,575.3,0.0,66.6,508.7,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,7.491899852724594,False
+2026-03-09,0713-0874,508.7,0.0,68.8,439.9,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,6.478645066273931,False
+2026-03-16,0713-0874,439.9,265.5,74.1,631.3,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,9.297496318114874,False
+2026-03-23,0713-0874,631.3,0.0,67.1,564.2,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,8.309278350515465,False
+2026-03-30,0713-0874,564.2,0.0,73.5,490.7,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,7.226804123711339,False
+2026-04-06,0713-0874,490.7,0.0,62.6,428.1,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,6.304860088365243,False
+2026-04-13,0713-0874,428.1,266.0,69.2,624.9,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,9.203240058910161,False
+2026-04-20,0713-0874,624.9,0.0,68.9,556.0,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,8.188512518409425,False
+2026-04-27,0713-0874,556.0,0.0,70.7,485.3,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,7.147275405007363,False
+2026-05-04,0713-0874,485.3,0.0,67.6,417.7,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,6.151693667157584,False
+2026-05-11,0713-0874,417.7,0.0,74.0,343.7,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,5.061855670103093,False
+2026-05-18,0713-0874,343.7,265.1,64.7,544.1,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,8.013254786450663,False
+2026-05-25,0713-0874,544.1,0.0,74.5,469.6,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,6.916053019145802,False
+2026-06-01,0713-0874,469.6,0.0,68.2,401.4,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,5.911634756995581,False
+2026-06-08,0713-0874,401.4,266.8,66.2,602.0,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,8.865979381443298,False
+2026-06-15,0713-0874,602.0,0.0,71.7,530.3,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,7.8100147275405,False
+2026-06-22,0713-0874,530.3,0.0,72.3,458.0,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,6.74521354933726,False
+2026-06-29,0713-0874,458.0,0.0,61.4,396.6,Tribenzor (olmesartan medoxomil / amlodipine besylate / hydrochlorothiazide),67.9,CMO-ALPHA,5.840942562592047,False
+2026-01-05,0713-0881,842.4,0.0,78.0,764.4,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,9.787451984635084,False
+2026-01-12,0713-0881,764.4,0.0,77.1,687.3,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,8.800256081946223,False
+2026-01-19,0713-0881,687.3,0.0,85.3,602.0,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,7.708066581306018,False
+2026-01-26,0713-0881,602.0,0.0,81.1,520.9,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,6.669654289372599,False
+2026-02-02,0713-0881,520.9,305.8,76.5,750.2,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,9.605633802816902,False
+2026-02-09,0713-0881,750.2,0.0,75.1,675.1,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,8.64404609475032,False
+2026-02-16,0713-0881,675.1,0.0,85.6,589.5,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,7.548015364916774,False
+2026-02-23,0713-0881,589.5,0.0,80.9,508.6,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,6.512163892445583,False
+2026-03-02,0713-0881,508.6,306.3,77.5,737.4,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,9.441741357234315,False
+2026-03-09,0713-0881,737.4,0.0,83.9,653.5,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,8.367477592829706,False
+2026-03-16,0713-0881,653.5,0.0,80.1,573.4,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,7.341869398207427,False
+2026-03-23,0713-0881,573.4,0.0,72.1,501.3,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,6.418693982074265,False
+2026-03-30,0713-0881,501.3,304.1,73.7,731.7,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,9.36875800256082,False
+2026-04-06,0713-0881,731.7,0.0,73.1,658.6,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,8.432778489116519,False
+2026-04-13,0713-0881,658.6,0.0,76.1,582.5,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,7.458386683738797,False
+2026-04-20,0713-0881,582.5,0.0,77.8,504.7,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,6.462227912932138,False
+2026-04-27,0713-0881,504.7,0.0,70.6,434.1,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,5.5582586427656855,False
+2026-05-04,0713-0881,434.1,0.0,73.3,360.8,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,4.619718309859155,False
+2026-05-11,0713-0881,360.8,305.7,83.9,582.6,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,7.459667093469911,False
+2026-05-18,0713-0881,582.6,0.0,76.5,506.1,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,6.480153649167734,False
+2026-05-25,0713-0881,506.1,307.3,75.1,738.3,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,9.45326504481434,False
+2026-06-01,0713-0881,738.3,0.0,77.0,661.3,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,8.467349551856595,False
+2026-06-08,0713-0881,661.3,0.0,76.3,585.0,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,7.490396927016646,False
+2026-06-15,0713-0881,585.0,0.0,75.9,509.1,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,6.518565941101153,False
+2026-06-22,0713-0881,509.1,304.7,85.0,728.8,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,9.331626120358514,False
+2026-06-29,0713-0881,728.8,0.0,82.0,646.8,Effient (Prasugrel Hydrochloride),78.1,CMO-ALPHA,8.28169014084507,False
+2026-01-05,0713-0883,360.4,0.0,32.2,328.2,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,9.431034482758621,False
+2026-01-12,0713-0883,328.2,0.0,33.0,295.2,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,8.482758620689655,False
+2026-01-19,0713-0883,295.2,0.0,31.4,263.8,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,7.580459770114944,False
+2026-01-26,0713-0883,263.8,135.6,37.7,361.7,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,10.39367816091954,False
+2026-02-02,0713-0883,361.7,0.0,32.9,328.8,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,9.448275862068966,False
+2026-02-09,0713-0883,328.8,0.0,34.1,294.7,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,8.468390804597702,False
+2026-02-16,0713-0883,294.7,0.0,31.7,263.0,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,7.557471264367817,False
+2026-02-23,0713-0883,263.0,135.0,32.7,365.3,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,10.49712643678161,False
+2026-03-02,0713-0883,365.3,0.0,35.7,329.6,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,9.471264367816094,False
+2026-03-09,0713-0883,329.6,0.0,33.9,295.7,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,8.49712643678161,False
+2026-03-16,0713-0883,295.7,0.0,36.7,259.0,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,7.442528735632185,False
+2026-03-23,0713-0883,259.0,136.6,34.9,360.7,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,10.364942528735632,False
+2026-03-30,0713-0883,360.7,0.0,35.1,325.6,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,9.356321839080461,False
+2026-04-06,0713-0883,325.6,0.0,32.2,293.4,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,8.431034482758621,False
+2026-04-13,0713-0883,293.4,0.0,33.4,260.0,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,7.471264367816093,False
+2026-04-20,0713-0883,260.0,0.0,35.0,225.0,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,6.4655172413793105,False
+2026-04-27,0713-0883,225.0,135.2,35.0,325.2,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,9.344827586206897,False
+2026-05-04,0713-0883,325.2,0.0,32.9,292.3,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,8.399425287356323,False
+2026-05-11,0713-0883,292.3,0.0,31.3,261.0,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,7.500000000000001,False
+2026-05-18,0713-0883,261.0,0.0,36.9,224.1,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,6.439655172413794,False
+2026-05-25,0713-0883,224.1,136.8,34.7,326.2,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,9.373563218390805,False
+2026-06-01,0713-0883,326.2,0.0,35.6,290.6,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,8.35057471264368,False
+2026-06-08,0713-0883,290.6,0.0,36.3,254.3,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,7.307471264367817,False
+2026-06-15,0713-0883,254.3,0.0,34.2,220.1,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,6.324712643678161,False
+2026-06-22,0713-0883,220.1,137.8,36.4,321.5,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,9.238505747126437,False
+2026-06-29,0713-0883,321.5,0.0,36.2,285.3,Evoxac (cevimeline hydrochloride),34.8,CMO-ALPHA,8.198275862068966,False
+2026-01-05,0713-0915,380.5,0.0,32.4,348.1,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,10.912225705329154,False
+2026-01-12,0713-0915,348.1,0.0,34.4,313.7,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,9.83385579937304,False
+2026-01-19,0713-0915,313.7,0.0,33.3,280.4,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,8.789968652037617,False
+2026-01-26,0713-0915,280.4,0.0,28.8,251.6,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,7.887147335423197,False
+2026-02-02,0713-0915,251.6,0.0,34.2,217.4,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,6.815047021943574,False
+2026-02-09,0713-0915,217.4,126.1,30.3,313.2,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,9.818181818181818,False
+2026-02-16,0713-0915,313.2,0.0,33.5,279.7,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,8.768025078369906,False
+2026-02-23,0713-0915,279.7,0.0,32.7,247.0,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,7.7429467084639505,False
+2026-03-02,0713-0915,247.0,0.0,28.7,218.3,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,6.843260188087775,False
+2026-03-09,0713-0915,218.3,124.8,30.8,312.3,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,9.789968652037619,False
+2026-03-16,0713-0915,312.3,0.0,32.0,280.3,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,8.786833855799374,False
+2026-03-23,0713-0915,280.3,0.0,30.4,249.9,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,7.833855799373041,False
+2026-03-30,0713-0915,249.9,0.0,35.0,214.9,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,6.736677115987462,False
+2026-04-06,0713-0915,214.9,125.2,31.3,308.8,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,9.68025078369906,False
+2026-04-13,0713-0915,308.8,0.0,30.5,278.3,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,8.724137931034484,False
+2026-04-20,0713-0915,278.3,0.0,34.6,243.7,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,7.639498432601881,False
+2026-04-27,0713-0915,243.7,0.0,32.4,211.3,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,6.623824451410659,False
+2026-05-04,0713-0915,211.3,125.3,29.6,307.0,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,9.623824451410659,False
+2026-05-11,0713-0915,307.0,0.0,30.5,276.5,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,8.667711598746083,False
+2026-05-18,0713-0915,276.5,0.0,33.8,242.7,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,7.608150470219436,False
+2026-05-25,0713-0915,242.7,0.0,32.1,210.6,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,6.601880877742947,False
+2026-06-01,0713-0915,210.6,125.7,32.1,304.2,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,9.536050156739812,False
+2026-06-08,0713-0915,304.2,0.0,29.9,274.3,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,8.598746081504704,False
+2026-06-15,0713-0915,274.3,0.0,34.2,240.1,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,7.5266457680250785,False
+2026-06-22,0713-0915,240.1,0.0,31.3,208.8,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,6.545454545454546,False
+2026-06-29,0713-0915,208.8,0.0,32.7,176.1,Evoxac (cevimeline hydrochloride),31.9,CMO-DELTA,5.52037617554859,False
+2026-01-05,0713-0937,411.6,0.0,43.9,367.7,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,9.124069478908188,False
+2026-01-12,0713-0937,367.7,0.0,41.1,326.6,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,8.104218362282879,False
+2026-01-19,0713-0937,326.6,0.0,38.3,288.3,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.153846153846155,False
+2026-01-26,0713-0937,288.3,157.3,42.0,403.6,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,10.014888337468983,False
+2026-02-02,0713-0937,403.6,0.0,44.1,359.5,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,8.92059553349876,False
+2026-02-09,0713-0937,359.5,0.0,43.1,316.4,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.851116625310174,False
+2026-02-16,0713-0937,316.4,0.0,43.4,273.0,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,6.774193548387097,False
+2026-02-23,0713-0937,273.0,158.2,41.4,389.8,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,9.672456575682384,False
+2026-03-02,0713-0937,389.8,0.0,41.1,348.7,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,8.652605459057073,False
+2026-03-09,0713-0937,348.7,0.0,43.2,305.5,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.580645161290323,False
+2026-03-16,0713-0937,305.5,0.0,43.7,261.8,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,6.4962779156327555,False
+2026-03-23,0713-0937,261.8,158.0,43.7,376.1,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,9.332506203473947,False
+2026-03-30,0713-0937,376.1,0.0,40.5,335.6,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,8.32754342431762,False
+2026-04-06,0713-0937,335.6,0.0,39.8,295.8,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.339950372208437,False
+2026-04-13,0713-0937,295.8,0.0,40.9,254.9,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,6.325062034739455,False
+2026-04-20,0713-0937,254.9,158.1,40.3,372.7,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,9.248138957816378,False
+2026-04-27,0713-0937,372.7,0.0,40.9,331.8,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,8.233250620347395,False
+2026-05-04,0713-0937,331.8,0.0,39.3,292.5,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.258064516129033,False
+2026-05-11,0713-0937,292.5,0.0,40.1,252.4,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,6.263027295285361,False
+2026-05-18,0713-0937,252.4,0.0,43.1,209.3,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,5.193548387096775,False
+2026-05-25,0713-0937,209.3,0.0,39.1,170.2,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,4.223325062034739,False
+2026-06-01,0713-0937,170.2,158.7,40.3,288.6,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.161290322580646,False
+2026-06-08,0713-0937,288.6,0.0,39.8,248.8,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,6.1736972704714645,False
+2026-06-15,0713-0937,248.8,157.4,43.9,362.3,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,8.990074441687346,False
+2026-06-22,0713-0937,362.3,0.0,40.8,321.5,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.977667493796527,False
+2026-06-29,0713-0937,321.5,0.0,37.3,284.2,cevimeline hydrochloride (cevimeline hydrochloride),40.3,CMO-ALPHA,7.052109181141439,False
+2026-01-05,0713-0943,804.2,0.0,60.3,743.9,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,11.826709062003179,False
+2026-01-12,0713-0943,743.9,0.0,63.5,680.4,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,10.817170111287759,False
+2026-01-19,0713-0943,680.4,0.0,66.8,613.6,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,9.75516693163752,False
+2026-01-26,0713-0943,613.6,0.0,58.4,555.2,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,8.82670906200318,False
+2026-02-02,0713-0943,555.2,0.0,57.5,497.7,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,7.912559618441971,False
+2026-02-09,0713-0943,497.7,0.0,63.7,434.0,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,6.899841017488076,False
+2026-02-16,0713-0943,434.0,244.8,64.2,614.6,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,9.77106518282989,False
+2026-02-23,0713-0943,614.6,0.0,56.8,557.8,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,8.868044515103339,False
+2026-03-02,0713-0943,557.8,0.0,62.2,495.6,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,7.879173290937997,False
+2026-03-09,0713-0943,495.6,0.0,60.7,434.9,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,6.914149443561208,False
+2026-03-16,0713-0943,434.9,248.5,56.6,626.8,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,9.965023847376788,False
+2026-03-23,0713-0943,626.8,0.0,66.2,560.6,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,8.912559618441971,False
+2026-03-30,0713-0943,560.6,0.0,67.8,492.8,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,7.834658187599365,False
+2026-04-06,0713-0943,492.8,0.0,63.4,429.4,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,6.82670906200318,False
+2026-04-13,0713-0943,429.4,246.6,58.9,617.1,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,9.81081081081081,False
+2026-04-20,0713-0943,617.1,0.0,57.1,560.0,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,8.903020667726551,False
+2026-04-27,0713-0943,560.0,0.0,67.7,492.3,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,7.82670906200318,False
+2026-05-04,0713-0943,492.3,0.0,61.8,430.5,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,6.844197138314786,False
+2026-05-11,0713-0943,430.5,0.0,62.3,368.2,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,5.853736089030207,False
+2026-05-18,0713-0943,368.2,244.4,57.0,555.6,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,8.833068362480128,False
+2026-05-25,0713-0943,555.6,0.0,63.5,492.1,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,7.8235294117647065,False
+2026-06-01,0713-0943,492.1,0.0,68.8,423.3,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,6.72972972972973,False
+2026-06-08,0713-0943,423.3,247.3,62.4,608.2,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,9.66931637519873,False
+2026-06-15,0713-0943,608.2,0.0,57.6,550.6,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,8.753577106518284,False
+2026-06-22,0713-0943,550.6,0.0,67.9,482.7,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,7.674085850556438,False
+2026-06-29,0713-0943,482.7,0.0,62.3,420.4,Benicar HCT (olmesartan medoxomil-hydrochlorothiazide),62.9,CMO-ALPHA,6.6836248012718595,False
+2026-01-05,0713-5401,255.8,0.0,25.5,230.3,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,9.323886639676115,False
+2026-01-12,0713-5401,230.3,0.0,23.8,206.5,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,8.360323886639677,False
+2026-01-19,0713-5401,206.5,0.0,26.0,180.5,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,7.3076923076923075,False
+2026-01-26,0713-5401,180.5,96.9,23.6,253.8,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,10.275303643724698,False
+2026-02-02,0713-5401,253.8,0.0,22.4,231.4,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,9.368421052631579,False
+2026-02-09,0713-5401,231.4,0.0,26.7,204.7,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,8.287449392712551,False
+2026-02-16,0713-5401,204.7,0.0,22.8,181.9,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,7.364372469635628,False
+2026-02-23,0713-5401,181.9,96.0,25.6,252.3,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,10.214574898785425,False
+2026-03-02,0713-5401,252.3,0.0,25.0,227.3,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,9.202429149797572,False
+2026-03-09,0713-5401,227.3,0.0,25.4,201.9,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,8.17408906882591,False
+2026-03-16,0713-5401,201.9,0.0,23.2,178.7,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,7.234817813765182,False
+2026-03-23,0713-5401,178.7,96.3,22.4,252.6,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,10.226720647773279,False
+2026-03-30,0713-5401,252.6,0.0,24.6,228.0,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,9.230769230769232,False
+2026-04-06,0713-5401,228.0,0.0,26.3,201.7,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,8.165991902834008,False
+2026-04-13,0713-5401,201.7,0.0,27.0,174.7,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,7.0728744939271255,False
+2026-04-20,0713-5401,174.7,0.0,24.0,150.7,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,6.101214574898785,False
+2026-04-27,0713-5401,150.7,96.7,23.5,223.9,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,9.064777327935223,False
+2026-05-04,0713-5401,223.9,0.0,22.4,201.5,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,8.157894736842106,False
+2026-05-11,0713-5401,201.5,0.0,25.0,176.5,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,7.145748987854251,False
+2026-05-18,0713-5401,176.5,0.0,25.6,150.9,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,6.109311740890688,False
+2026-05-25,0713-5401,150.9,0.0,23.9,127.0,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,5.1417004048583,False
+2026-06-01,0713-5401,127.0,97.3,23.8,200.5,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,8.117408906882591,False
+2026-06-08,0713-5401,200.5,0.0,25.1,175.4,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,7.101214574898786,False
+2026-06-15,0713-5401,175.4,0.0,24.1,151.3,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,6.125506072874495,False
+2026-06-22,0713-5401,151.3,97.0,26.2,222.1,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,8.991902834008098,False
+2026-06-29,0713-5401,222.1,0.0,25.7,196.4,Ambien (zolpidem tartrate),24.7,CMO-ALPHA,7.951417004048584,False
+2026-01-05,0713-5501,523.9,0.0,43.9,480.0,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,10.666666666666666,False
+2026-01-12,0713-5501,480.0,0.0,48.0,432.0,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,9.6,False
+2026-01-19,0713-5501,432.0,0.0,48.8,383.2,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,8.515555555555554,False
+2026-01-26,0713-5501,383.2,0.0,44.4,338.8,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,7.528888888888889,False
+2026-02-02,0713-5501,338.8,0.0,43.6,295.2,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,6.56,False
+2026-02-09,0713-5501,295.2,175.9,48.5,422.6,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,9.391111111111112,False
+2026-02-16,0713-5501,422.6,0.0,47.0,375.6,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,8.346666666666668,False
+2026-02-23,0713-5501,375.6,0.0,47.4,328.2,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,7.293333333333333,False
+2026-03-02,0713-5501,328.2,0.0,48.9,279.3,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,6.206666666666667,False
+2026-03-09,0713-5501,279.3,177.6,40.9,416.0,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,9.244444444444444,False
+2026-03-16,0713-5501,416.0,0.0,41.3,374.7,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,8.326666666666666,False
+2026-03-23,0713-5501,374.7,0.0,42.2,332.5,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,7.388888888888889,False
+2026-03-30,0713-5501,332.5,0.0,48.4,284.1,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,6.3133333333333335,False
+2026-04-06,0713-5501,284.1,177.4,47.7,413.8,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,9.195555555555556,False
+2026-04-13,0713-5501,413.8,0.0,43.1,370.7,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,8.237777777777778,False
+2026-04-20,0713-5501,370.7,0.0,41.4,329.3,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,7.317777777777778,False
+2026-04-27,0713-5501,329.3,0.0,41.7,287.6,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,6.391111111111112,False
+2026-05-04,0713-5501,287.6,0.0,42.8,244.8,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,5.44,False
+2026-05-11,0713-5501,244.8,176.0,44.4,376.4,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,8.364444444444445,False
+2026-05-18,0713-5501,376.4,0.0,43.6,332.8,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,7.395555555555556,False
+2026-05-25,0713-5501,332.8,0.0,46.9,285.9,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,6.353333333333333,False
+2026-06-01,0713-5501,285.9,177.3,47.8,415.4,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,9.23111111111111,False
+2026-06-08,0713-5501,415.4,0.0,44.5,370.9,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,8.242222222222221,False
+2026-06-15,0713-5501,370.9,0.0,42.0,328.9,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,7.308888888888888,False
+2026-06-22,0713-5501,328.9,0.0,48.3,280.6,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,6.235555555555556,False
+2026-06-29,0713-5501,280.6,0.0,46.2,234.4,Ambien CR (zolpidem tartrate),45.0,CMO-ALPHA,5.208888888888889,False

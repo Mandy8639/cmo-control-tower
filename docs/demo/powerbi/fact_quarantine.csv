@@ -1,0 +1,6 @@
+row_uid,partner,batch_id,reason
+R111-X000,CMO-DELTA,BEX400050,duplicate
+R111-X001,CMO-DELTA,,missing_batch_id
+R111-X002,CMO-DELTA,BEX400053,end_before_start
+R111-X003,CMO-DELTA,BEX400051,wrong_uom
+R111-X004,CMO-DELTA,BEX400052,release_before_mfg

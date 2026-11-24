@@ -1,0 +1,17 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --all-extras
+      - run: uv run ruff check src tests app
+      - run: uv run ruff format --check src tests app
+      - run: uv run ct golden verify
+      - run: uv run pytest -q
+      - name: Eval gate (dev split must stay at 0 false alarms and >= 95% caught)
+        run: |
+          uv run ct eval --split dev --out eval_dev.json
+          uv run python -c "import json,sys; r=json.load(open('eval_dev.json'))[0]; sys.exit(0 if r['false_alarms']==0 and r['recall']>=0.95 else 1)"

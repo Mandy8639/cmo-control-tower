@@ -292,7 +292,9 @@ def simulate(seed: int, issues: list[Issue]) -> Scenario:
         "material_receipts": _dates(pd.DataFrame(receipts), ["planned_receipt", "actual_receipt"]),
         "downtime": _dates(pd.DataFrame(downtime), ["start", "end"]),
         "batches": _dates(pd.DataFrame(batches), ["planned_start", "actual_start", "mfg_end", "qa_release"]),
-        "deviations": _dates(pd.DataFrame(deviations, columns=["deviation_id", "partner", "batch_id", "opened", "closed", "category", "severity"]), ["opened", "closed"]),
+        "deviations": _dates(
+            pd.DataFrame(deviations, columns=["deviation_id", "partner", "batch_id", "opened", "closed", "category", "severity"]), ["opened", "closed"]
+        ),
         "packaging_orders": _dates(pd.DataFrame(pack), ["received", "due", "completed"]),
         "deliveries": _dates(pd.DataFrame(deliveries), ["promised", "delivered"]),
         "invoices": _dates(pd.DataFrame(invoices), ["invoice_date"]),
@@ -381,7 +383,9 @@ def _inventory(rng, issues, products, demand_mean, deliveries) -> pd.DataFrame:
             if spike:
                 dem *= 1.9 + u[1] * 0.3
             dem = round(dem, 1)
-            rec = round(sum(x["qty_delivered"] for x in mine if x["delivered"] is not None and w * 7 <= x["delivered"] < w * 7 + 7 and x["delivered"] <= HORIZON), 1)
+            rec = round(
+                sum(x["qty_delivered"] for x in mine if x["delivered"] is not None and w * 7 <= x["delivered"] < w * 7 + 7 and x["delivered"] <= HORIZON), 1
+            )
             opening = on_hand
             on_hand = round(max(0.0, opening + rec - dem), 1)
             rows.append(
