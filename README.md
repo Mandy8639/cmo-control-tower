@@ -59,6 +59,11 @@ turns a month red, but it cannot say why, and normal noise turns many other mont
 
 ## Outputs
 
+Pre-built samples (scenario test/111, May 2026) are in [`docs/demo/`](docs/demo/): the deck as
+[PDF](docs/demo/VPT_review.pdf) and [PPTX](docs/demo/VPT_review.pptx), the [workbook](docs/demo/VPT_workbook.xlsx)
+and the [Power BI tables](docs/demo/powerbi/).
+
+
 - **`VPT_workbook.xlsx`**: a *Scorecard* sheet where every KPI is a live formula over the data
   sheets (pick a month in `B2` and everything recalculates); a *Trend* sheet with an OTIF chart;
   data sheets with helper formulas (OnTime, InFull, OTIF, RFT, weeks of supply via INDEX/MATCH);
